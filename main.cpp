@@ -4,8 +4,14 @@ using namespace std;
 
 int main()
 {
-	int prev, current;
-	// TODO
+  int prev, cur;
+  cin >> prev;
+  cur = prev;
 
-	// TODO
+  while (prev <= cur){
+    cout << prev << " " << cur;
+    prev = cur;
+    cin >> cur;
+  }
+
 }
